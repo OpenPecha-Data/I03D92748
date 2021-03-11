@@ -30,32 +30,6 @@ source_metadata:
       volume_number: 5
       total_pages: 522
   author: ''
-  volumes:
-    7645d7f4e03e47e78a9c25af07d263a5:
-      image_group_id: I4351
-      title: ''
-      volume_number: 1
-      total_pages: 510
-    9e8bab6a70c645bfb8a10eb8083fa927:
-      image_group_id: I4352
-      title: ''
-      volume_number: 2
-      total_pages: 500
-    6c34ea87a6de47ec801226764c2f22c1:
-      image_group_id: I4353
-      title: ''
-      volume_number: 3
-      total_pages: 598
-    aab853dfefb3433dbce4ee87da329418:
-      image_group_id: I4354
-      title: ''
-      volume_number: 4
-      total_pages: 522
-    d6ba50c4b1594f93ab8b799443029c7d:
-      image_group_id: I4355
-      title: ''
-      volume_number: 5
-      total_pages: 522
 ebook_metadata:
   title: གསུང་འབུམ། འཇམ་དབྱངས་དཔལ་ལྡན་རྒྱ་མཚོ
   author: ''
