@@ -1,51 +1,98 @@
 id: I03D92748
+legacy_id: P007017
+ocr_import_info:
+  bdrc_scan_id: W27481
+  source: bdrc
+  ocr_info:
+    timestamp: '2021-01-22T10:59:21'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-29T21:26:43+00:00'
-last_modified: '2022-06-08T12:02:53.935464+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T07:19:21.089727+00:00'
+last_modified: 2022-09-02 15:21:54.416014
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W27481
-  title: གསུང་འབུམ། འཇམ་དབྱངས་དཔལ་ལྡན་རྒྱ་མཚོ
-  author: ''
+  id: http://purl.bdrc.io/resource/W27481
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    06F8:
-      image_group_id: I4351
-      title: ''
-      total_pages: 510
-      order: 1
-      base_file: 06F8.txt
-    '4347':
-      image_group_id: I4352
-      title: ''
-      total_pages: 500
-      order: 2
-      base_file: 4347.txt
-    6F3D:
-      image_group_id: I4353
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW27481
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: གསུང་འབུམ། འཇམ་དབྱངས་དཔལ་ལྡན་རྒྱ་མཚོ།
+  author: གཙང་མཁན་ཆེན་དཔལ་ལྡན་རྒྱ་མཚོ།
+statistics:
+  ocr_word_mean_confidence_index: 0.6876834477619672
+  ocr_word_median_confidence_index: 0.73
+quality: null
+bases:
+  I4353:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4353
       total_pages: 598
-      order: 3
-      base_file: 6F3D.txt
-    '7044':
-      image_group_id: I4354
-      title: ''
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I4353.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.6974059524086257
+    legacy_id: v003
+  I4355:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4355
       total_pages: 522
-      order: 4
-      base_file: 7044.txt
-    3E37:
-      image_group_id: I4355
-      title: ''
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I4355.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.7048674734946989
+    legacy_id: v005
+  I4352:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4352
+      total_pages: 500
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I4352.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7
+      ocr_word_mean_confidence_index: 0.6602372680281332
+    legacy_id: v002
+  I4354:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4354
       total_pages: 522
-      order: 5
-      base_file: 3E37.txt
-statistics: {}
-quality: {}
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I4354.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.71
+      ocr_word_mean_confidence_index: 0.6715983016311595
+    legacy_id: v004
+  I4351:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4351
+      total_pages: 510
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I4351.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.6959935980441921
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
